@@ -24,7 +24,7 @@ export default function NoteEditorPage() {
   const editorRef = useRef(null);
 
   // Get the backend URL from environment variables
-  const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+  const BACKEND_URL = process.env.BACKEND_URL;
   console.log(BACKEND_URL);
 
   useEffect(() => {
