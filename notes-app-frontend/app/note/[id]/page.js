@@ -24,7 +24,8 @@ export default function NoteEditorPage() {
   const editorRef = useRef(null);
 
   // Get the backend URL from environment variables
-  const BACKEND_URL = process.env.BACKEND_URL;
+  const BACKEND_URL = "https://note-taking-1-idk7.onrender.com";
+  
   console.log(BACKEND_URL);
 
   useEffect(() => {

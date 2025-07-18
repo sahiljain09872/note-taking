@@ -14,7 +14,7 @@ export default function AllNotesPage() {
   const router = useRouter();
 
   // Get the backend URL from environment variables
-  const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+  const BACKEND_URL =  "https://note-taking-1-idk7.onrender.com";
 
   // Fetch notes from the backend
   useEffect(() => {
