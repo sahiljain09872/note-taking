@@ -25,6 +25,7 @@ export default function NoteEditorPage() {
 
   // Get the backend URL from environment variables
   const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8000';
+  console.log(BACKEND_URL);
 
   useEffect(() => {
     const loadNoteData = async () => {
