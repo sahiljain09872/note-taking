@@ -25,8 +25,6 @@ export default function NoteEditorPage() {
 
   // Get the backend URL from environment variables
   const BACKEND_URL = "https://note-taking-1-idk7.onrender.com";
-  
-  console.log(BACKEND_URL);
 
   useEffect(() => {
     const loadNoteData = async () => {
